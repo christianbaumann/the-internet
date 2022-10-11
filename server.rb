@@ -237,6 +237,10 @@ class Public < Sinatra::Base
     redirect '/status_codes'
   end
 
+  get '/radio' do
+    redirect '/radio'
+  end
+
   get '/redirector' do
     erb :redirector
   end
